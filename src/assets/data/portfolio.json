@@ -1,0 +1,87 @@
+[
+    { 
+        "name":"Education",
+        "info": [
+            {
+                "name":"BACHELOR OF ARTS IN INTERIOR DESIGN",
+                "location":"Coventry University, England",
+                "date":"2019-2022"
+            },
+            {
+                "name":"ADVANCE DIPLOMA",
+                "location":"Raffles Design International, Mumbai, India",
+                "date":"2019-2022"
+            },
+            {
+                "name":"DEGREE IN MUSIC",
+                "location":" Prayag Sangeet Samiti, Allahbad, India",
+                "date":" 2012-2019"
+            },
+            {
+                "name":"HIGH SCHOOL",
+                "location":"St. Theresa’s Convent School, Karnal, India",
+                "date":" 2017-2019"
+            },
+            {
+                "name":"JUNIOR SCHOOL",
+                "location":"Delhi Public School, Karnal, India",
+                "date":"2005-2017"
+            }
+        ]
+    },
+    { 
+        "name":"Proffesional Experience",
+        "info": [
+            {
+                "name":"INTERIOR CONSULTANT",
+                "location":"Bharat Furniture pvt. ltd., Karnal, India",
+                "date":"2020-2021",
+                "more_info":[
+                    "Evaluating client needs, developing products and prototypes, creating interior spaces."
+
+                ]
+            },
+            {
+                "name":"INTERIOR DESIGN INTERNSHIP",
+                "location":"And Studio, Delhi, India",
+                "date":"APRIL-OCT, 2021",
+                "more_info":[
+                    " Planning, 3D perspective rendering, client meetings & presentations"
+                    
+                ]
+            },
+            {
+                "name":"CONCEPT SHOOT DESIGNER",
+                "location":"Bs. Bhawika Sachdeva, Karnal, India",
+                "date":"JUNE, 2021",
+                "more_info":[
+                    "Planning, developing presentations, client meetings & execution."
+                
+                ]
+            }
+        ]
+    },
+    { 
+        "name":"Skills",
+        "info": [
+            {
+                "name":"Adobe Indesign"
+            },
+            {
+                "name":"Adobe Photoshop"
+            },
+            {
+                "name":"Autocad Illustrator"
+            },
+            {
+                "name":"Ms. Office "
+            },
+            {
+                "name":"Sketchup"
+            },
+            {
+                "name":"3ds Max "
+            }
+        ]
+    }
+]

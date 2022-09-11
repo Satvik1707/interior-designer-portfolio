@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Residential Projects",
+        "location": "Bandra, Mumbai",
+        "description": "The space is a 56 sq. m. studio apartment designed for a 20 years old college student. The client is a social person who is inclined towards a space with elegance, modernity, and delightfulness, and is affectionate about the color pink in interiors.",
+        "type":"Interior Design",   
+        "owner":"Nandini Gulati",   
+        "profile":"https://i.postimg.cc/NjnpgQd0/UNTITLED-undefined-1-20220809-235929.jpg",
+        "images": [
+            "https://i.postimg.cc/NjnpgQd0/UNTITLED-undefined-1-20220809-235929.jpg",
+            "https://i.postimg.cc/Yqnx3pKx/UNTITLED-undefined-12-20220809-235929.jpg",
+            "https://i.postimg.cc/cHRmMw0K/UNTITLED-undefined-2-20220809-235929.jpg",
+            "https://i.postimg.cc/X778drhJ/UNTITLED-undefined-7-20220809-235929.jpg",
+            "https://i.postimg.cc/y6TjDmLt/UNTITLED-undefined-9-20220809-235929.jpg",
+            "https://i.postimg.cc/5ypSDJHb/UNTITLED-Untitled-16-20220809-235929.jpg"
+        ]
+    },
+    {
+        "name": "Residential Projects",
+        "location": "Vasant Vihar, Delhi",
+        "description": "The space is a 150 sq. m. four bedroom apartment (converted to three bedroom) designed for a couple and their baby girl. The client wants a modern luxury apartment with neutral colour tones.The concept of the space is based on geometric shapes and lines because they bring a sense of now into the design and helps makes the interiors look fresh and bright while creating balance and harmony in the space. Moreover, an effort of visually and spatially engaging the sense through the use of a splash of color with the neutal color palette has been done.",
+        "type":"Interior Design",   
+        "owner":"Nandini Gulati",  
+        "profile":"https://i.postimg.cc/kgw5BPMR/1-3-Photo.jpg",
+        "images": [
+            "https://i.postimg.cc/kgw5BPMR/1-3-Photo.jpg",
+            "https://i.postimg.cc/QM2ZMf7W/1-4-Photo.jpg",
+            "https://i.postimg.cc/XYqRcRcC/1-6-Photo.jpg",
+            "https://i.postimg.cc/W4FPjBdv/2-19-Photo.jpg",
+            "https://i.postimg.cc/1zH3Vh9N/2-11-Photo.jpg",
+            "https://i.postimg.cc/zvLzQyTn/10.jpg",
+            "https://i.postimg.cc/MTpKyPT3/s-15-Photo.jpg",
+            "https://i.postimg.cc/pLSg0sq1/6-2.jpg",
+            "https://i.postimg.cc/9fqssykX/s-17-Photo.jpg"
+        ]
+    },
+    {
+        "name": "Residential Designs",
+        "location": "London",
+        "description": "The space is a villa designed for an indian family in London, United Kingdom",
+        "type":"Interior Design",   
+        "owner":"Nandini Gulati",  
+        "profile":"https://i.postimg.cc/c1hsfD9G/MASTER-BEDROOM-VIEW-1.jpg",
+        "images": [
+            "https://i.postimg.cc/c1hsfD9G/MASTER-BEDROOM-VIEW-1.jpg",
+            "https://i.postimg.cc/Prqdym9p/MASTER-BEDROOM-VIEW-2.jpg",
+            "https://i.postimg.cc/rp4VWMbf/1.jpg",
+            "https://i.postimg.cc/dQ4rCdfx/2.jpg",
+            "https://i.postimg.cc/XJxGwSsC/4.jpg",
+            "https://i.postimg.cc/9FNCnDHx/MASTER-TOILET-VIEW-1.jpg",
+            "https://i.postimg.cc/htxX27Cg/f1.jpg",
+            "https://i.postimg.cc/9FDRqkZD/f2.jpg",
+            "https://i.postimg.cc/WpWqzVFR/s1.jpg",
+            "https://i.postimg.cc/zX4LwkF0/VIEW-1.jpg"
+        ]
+    },
+    {
+        "name": "QUA Office",
+        "location": "Bandra, Mumbai",
+        "description": "The idea behind the project is to conceptually and practically design a 5500 sq.ft space keeping in mind the employees (45-50) and the needs of the brand “QUA”. It is a natural mineral water brand owned by The Narang Group. THE 3 KEYS OF QUA - REPLENISH, RENEW AND REPEAT.",
+        "type":"Interior Design",   
+        "owner":"Nandini Gulati",   
+        "profile":"https://i.postimg.cc/RhhsNw4L/1.png",
+        "images": [
+            "https://i.postimg.cc/RhhsNw4L/1.png",
+            "https://i.postimg.cc/JhQPxphQ/2.png",
+            "https://i.postimg.cc/wjLWyq8Z/3.jpg",
+            "https://i.postimg.cc/bvPm17qJ/4.png",
+            "https://i.postimg.cc/NMJbqLm9/5.png",
+            "https://i.postimg.cc/XqrLV3k2/8-1.png"
+        ]
+    },
+    {
+        "name": "Ted Baker Store",
+        "location": "CP, Delhi",
+        "description": "The space is a 2400 sq ft. retail shop for the brand “Ted Baker”. It is one of the United Kingdom’s fastest-growing and most global designer brands. This store features it’s women’s collection. The brand’s famous for it’s bags and floral prints.",
+        "type":"Interior Design",   
+        "owner":"Nandini Gulati",   
+        "profile":"https://i.postimg.cc/KjgN85n4/5-3.jpg",
+        "images": [
+            "https://i.postimg.cc/KjgN85n4/5-3.jpg",
+            "https://i.postimg.cc/Df9Vdjpj/10.jpg",
+            "https://i.postimg.cc/ThMcLW90/6-3.jpg",
+            "https://i.postimg.cc/CMBT8T7n/8-2.jpg"
+        ]
+    },
+    {
+        "name": "Kiosk",
+        "location": "Palladium, Lower Parel, Mumbai",
+        "description": "The space is a 100 sq. ft. pop-up shop for the brand “Kylie Cosmetics” by Kylie Jenner. It is one of the fastest growing beauty brands in the world. Every year to celebrate, the brand launches a birthday collection for the founder of Kylie Cosmetics, Kylie Jenner. This pop-up shop features the same collection and the theme is money. The billionaire’s entire birthday collection is inspired by the dollar bill. The Pink Box” is the main theme of the pop-up shop, The idea behind the concept of “Glass House Pop Up Store” is sheerness, and perceptibility, to catch the eyes of majority of the target customers, resulting in high sales of the featured collections. The colour pink has been given emphasis to reflect the brand’s identity.",
+        "type":"Interior Design",   
+        "owner":"Nandini Gulati",   
+        "profile":"https://i.postimg.cc/jdVysZ0y/final-4.jpg",
+        "images": [
+            "https://i.postimg.cc/jdVysZ0y/final-4.jpg",
+            "https://i.postimg.cc/7PJg8jcx/FINAL-3.jpg",
+            "https://i.postimg.cc/sxWSYZSB/FINAL-2.jpg",
+            "https://i.postimg.cc/FR83kxf5/FINAL-1.jpg"
+        ]
+    }
+]
