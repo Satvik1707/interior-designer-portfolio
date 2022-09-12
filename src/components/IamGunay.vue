@@ -2,7 +2,7 @@
   <div class="container">
     <div class="left-column">
       <div class="left-column-text">
-        <p class="main-text" align="center">Nandisdcfvbnbvcxvbnni Gulati</p>
+        <p class="main-text" align="center">Nandini Gulati</p>
         <p class="main-text-desc" align="left">INTERIOR DESIGNER</p>
         <div class="image">
           <transition-group tag="div">
