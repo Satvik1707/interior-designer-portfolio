@@ -124,6 +124,24 @@
   transform: rotate(5deg);
 }
 
+.read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  color: #945654;
+  width: 140px;
+  height: 60px;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 1em;
+  font-family: Century Gothic, sans-serif;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
 .header {
   display: flex;
   align-items: center;

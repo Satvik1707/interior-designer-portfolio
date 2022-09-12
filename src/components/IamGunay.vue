@@ -10,8 +10,8 @@
               <img :src="currentImg" />
             </div>
           </transition-group>
-          <a class="prev" @click="prev" href="#">&#10094;</a>
-          <a class="next" @click="next" href="#">&#10095; </a>
+          <a class="prev" @click="prev" href="#">&#10094; Previous</a>
+          <a class="next" @click="next" href="#">Next &#10095;</a>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 0.9s ease;
+  /* transition: all 0.9s ease; */
   overflow: hidden;
   visibility: visible;
   position: absolute;
@@ -44,8 +44,9 @@
 }
 
 img {
-  height: 600px;
-  width: 1000px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .prev,
@@ -61,6 +62,7 @@ img {
   border-radius: 0 4px 4px 0;
   text-decoration: none;
   user-select: none;
+  /* padding: 10px; */
 }
 
 .next {
@@ -77,13 +79,14 @@ img {
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: row;
-  border-left: 1px solid black;
-  margin-left: 200px;
-  border-right: 1px solid black;
-  padding-left: 5%;
-  margin-right: 200px;
+  /* border-left: 1px solid black; */
+  /* margin-left: 200px; */
+  /* border-right: 1px solid black; */
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  /* margin-right: 200px; */
 }
 
 .left-column {
@@ -93,8 +96,14 @@ img {
   justify-content: center;
   align-items: center;
   flex-grow: 2;
-  padding: 10em 3em 10em 3em;
+  /* padding: 10em 3em 10em 3em; */
   background-size: 24px 24px;
+  border-left: 1px solid black;
+  /* margin-left: 200px; */
+  border-right: 1px solid black;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 .left-column-text {
@@ -225,7 +234,7 @@ export default {
 
   methods: {
     startSlide: function() {
-      this.timer = setInterval(this.next, 6000)
+      this.timer = setInterval(this.next, 100000000000000000)
     },
 
     next: function() {

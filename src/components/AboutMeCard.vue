@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="container">
+      <div class="column-1 lc">
+        <div class="profile-col">
+          <img id="profile2" src="../assets/me.png" alt="nothing" />
+        </div>
+      </div>
       <div class="column-1 rc">
         <div class="info">
           <div class="header">
             <p>THE DESIGNER</p>
             <span></span>
           </div>
-          <!-- <div class="column-1 lc">
-            <div class="profile-col">
-              <img id="profile2" src="../assets/me2.png" alt="nothing" />
-            </div>
-          </div> -->
           <div class="description">
             I am an interior designer based in Delhi, India. My expertise lies
             in interior space planning, conceptualizing, design development, and
@@ -26,75 +26,40 @@
       </div>
       <button class="read-more">
         <router-link to="/about">
-          READ MORE
-          <img src="../assets/right-arrow.svg" />
+          <span>
+            READ MORE
+          </span>
+          <!-- <img src="../assets/right-arrow.svg" /> -->
         </router-link>
       </button>
     </div>
   </div>
-  <!-- <div class="att-container">
-    <div class="att-first-down-line" />
-    <div class="att-second-down-line" />
-  </div> -->
 </template>
 
-<style lang="css" scoped>
+<style scoped>
 * {
   margin: 0;
   padding: 0;
+  font-family: Century Gothic, sans-serif;
 }
-.container img {
-  width: 250px;
-  height: 300px;
-  float: left;
+.container,
+.main {
+  margin: 3% 10% 0% 5%;
 }
 
 .container {
   display: flex;
-  flex-direction: column;
-  padding: 5%;
+  flex-wrap: wrap;
 }
 
-.container .header {
-  font-size: 2em;
-  font-family: Century Gothic, sans-serif;
-  font-weight: 600;
-  align-items: center;
-}
-
-.container .description {
-  margin-top: 30px;
-  font-family: Century Gothic, sans-serif;
-  padding: 2px;
-  justify-content: center;
-}
-
-.container .read-more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0;
-  background-color: transparent;
-  color: #945654;
-  width: 140px;
-  height: 60px;
-  align-self: flex-end;
-  margin-top: 20px;
-  margin-right: 10px;
-  font-size: 1em;
-  font-family: Century Gothic, sans-serif;
-  border: 1px solid black;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
 .column-1 {
   display: flex;
   flex-direction: column;
-  flex: 2;
+  flex: 1;
 }
 
 .lc {
-  align-items: left;
+  align-items: center;
 }
 
 .rc {
@@ -103,8 +68,8 @@
 
 .profile-col {
   position: relative;
-  max-height: 10px;
-  max-width: 250px;
+  min-height: 400px;
+  min-width: 260.25px;
   border: 3px solid #f3c7c6;
   /* padding: 5px 10px 5px 10px; */
 }
@@ -138,6 +103,25 @@
   transform: rotate(0deg);
 }
 
+.read-more {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  color: #945654;
+  width: 140px;
+  height: 60px;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 1em;
+  font-family: Century Gothic, sans-serif;
+  border: 1px solid #945654;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
 .header {
   display: flex;
   align-items: center;
@@ -157,24 +141,101 @@
 .left-container {
   flex: 1;
 }
-.container .read-more:hover {
-  transform: rotate(-10deg);
+
+.card-header {
+  display: flex;
+  text-transform: uppercase;
+  background-size: 24px 24px;
+  border-right: 1px solid #b8b8b8;
 }
 
-.container .read-more img {
-  width: 20px;
-  height: 20px;
-  margin-left: 8px;
+.card-header p {
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #945654;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  /* border-left: 25px solid black; */
 }
 
-.read-more a {
+.card-main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 3px;
+}
+
+.card-main .date {
+  text-align: end;
+  flex: 1;
+}
+
+.card-main .column-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  border-left: 4px solid #b8b8b8;
+}
+
+.card-main .column-info .name {
+  font-size: 1.2em;
+}
+
+.name-weight {
+  font-weight: 700;
+}
+
+.card-main .column-info ul {
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.download-cv {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
   text-decoration: none;
   outline: none;
-  color: #945654;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
-.header {
-  align-items: center;
+.download-cv button {
+  width: 70px;
+  height: 70px;
+  background: url('../assets/pdf.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 80%;
+  outline: none;
+  border-radius: 40px;
+}
+
+@media (max-width: 768.98px) {
+}
+
+@media (max-width: 768.98px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% 1em 0% 1em;
+    margin-top: 40px;
+  }
+
+  .main {
+    margin: 3% 2em 0% 2em;
+  }
+
+  .rc {
+    margin: 40px 1em 0% 1em;
+  }
 }
 </style>
 
