@@ -11,16 +11,6 @@ import { CCarousel } from '@coreui/vue'
             <CCarouselItem>
               <img class="d-block w-100" src="../assets/s3.jpg" alt="slide 1" />
             </CCarouselItem>
-            <!-- <CCarouselItem>
-              <img class="d-block w-100" src="../assets/s3.jpg" alt="slide 2" />
-            </CCarouselItem>
-            <CCarouselItem>
-              <img
-                class="d-block w-100"
-                src="/images/angular.jpg"
-                alt="slide 3"
-              />
-            </CCarouselItem> -->
           </CCarousel>
         </div>
       </div>
