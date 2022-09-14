@@ -1,22 +1,30 @@
+import { CCarousel } from '@coreui/vue'
+
 <template>
   <div class="container">
     <div class="left-column">
       <div class="left-column-text">
         <p class="main-text" align="center">Nandini Gulati</p>
         <p class="main-text-desc" align="left">INTERIOR DESIGNER</p>
-        <div class="image">
-          <transition-group tag="div">
-            <div v-for="i in [currentIndex]" :key="i">
-              <img :src="currentImg" />
-            </div>
-          </transition-group>
-          <a class="prev" @click="prev" href="#">&#10094; Previous</a>
-          <a class="next" @click="next" href="#">Next &#10095;</a>
+        <div>
+          <CCarousel controls indicators transition="crossfade">
+            <CCarouselItem>
+              <img class="d-block w-100" src="../assets/s3.jpg" alt="slide 1" />
+            </CCarouselItem>
+            <!-- <CCarouselItem>
+              <img class="d-block w-100" src="../assets/s3.jpg" alt="slide 2" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <img
+                class="d-block w-100"
+                src="/images/angular.jpg"
+                alt="slide 3"
+              />
+            </CCarouselItem> -->
+          </CCarousel>
         </div>
       </div>
     </div>
-
-    <!-- <div class="right-column"></div> -->
   </div>
 </template>
 
@@ -81,12 +89,6 @@ img {
   display: flex;
   /* flex-wrap: wrap; */
   flex-direction: row;
-  /* border-left: 1px solid black; */
-  /* margin-left: 200px; */
-  /* border-right: 1px solid black; */
-  /* padding-left: 5%;
-  padding-right: 5%; */
-  /* margin-right: 200px; */
 }
 
 .left-column {
@@ -101,9 +103,6 @@ img {
   border-left: 1px solid black;
   /* margin-left: 200px; */
   border-right: 1px solid black;
-  padding-left: 5%;
-  padding-right: 5%;
-
 }
 
 .left-column-text {
@@ -211,44 +210,5 @@ img {
 }
 </style>
 <script>
-export default {
-  name: 'Slider',
-  data() {
-    return {
-      images: [
-        'https://i.postimg.cc/Yqnx3pKx/UNTITLED-undefined-12-20220809-235929.jpg',
-        'https://i.postimg.cc/9M236b6m/1-4-Photo.jpg',
-        'https://i.postimg.cc/B6pnQsXt/4.png',
-        'https://i.postimg.cc/Vv73b8dv/common-final.jpg',
-        'https://i.postimg.cc/90NXZpPh/f3.jpg',
-        'https://i.postimg.cc/9FNCnDHx/MASTER-TOILET-VIEW-1.jpg'
-      ],
-      timer: null,
-      currentIndex: 0
-    }
-  },
-
-  mounted: function() {
-    this.startSlide()
-  },
-
-  methods: {
-    startSlide: function() {
-      this.timer = setInterval(this.next, 100000000000000000)
-    },
-
-    next: function() {
-      this.currentIndex += 1
-    },
-    prev: function() {
-      this.currentIndex -= 1
-    }
-  },
-
-  computed: {
-    currentImg: function() {
-      return this.images[Math.abs(this.currentIndex) % this.images.length]
-    }
-  }
-}
+export default {}
 </script>

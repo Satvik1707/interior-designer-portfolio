@@ -110,7 +110,7 @@
   align-items: center;
   border: 0;
   background-color: transparent;
-  color: #945654;
+  color: #f3c7c6;
   width: 140px;
   height: 60px;
   align-self: flex-end;
@@ -118,7 +118,7 @@
   margin-right: 10px;
   font-size: 1em;
   font-family: Century Gothic, sans-serif;
-  border: 1px solid #945654;
+  border: 1px solid #f3c7c6;
   cursor: pointer;
   transition: transform 0.3s;
 }
@@ -136,86 +136,6 @@
   margin-left: 15px;
   height: 2px;
   background-color: black;
-}
-
-.left-container {
-  flex: 1;
-}
-
-.card-header {
-  display: flex;
-  text-transform: uppercase;
-  background-size: 24px 24px;
-  border-right: 1px solid #b8b8b8;
-}
-
-.card-header p {
-  font-size: 1.7em;
-  font-weight: 700;
-  color: #945654;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  /* border-left: 25px solid black; */
-}
-
-.card-main {
-  display: flex;
-  flex-direction: row;
-  margin-top: 14px;
-  margin-bottom: 14px;
-  padding: 3px;
-}
-
-.card-main .date {
-  text-align: end;
-  flex: 1;
-}
-
-.card-main .column-info {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 10px;
-  border-left: 4px solid #b8b8b8;
-}
-
-.card-main .column-info .name {
-  font-size: 1.2em;
-}
-
-.name-weight {
-  font-weight: 700;
-}
-
-.card-main .column-info ul {
-  margin-top: 15px;
-  margin-left: 20px;
-  text-align: left;
-}
-
-.download-cv {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  text-decoration: none;
-  outline: none;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.download-cv button {
-  width: 70px;
-  height: 70px;
-  background: url('../assets/pdf.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70% 80%;
-  outline: none;
-  border-radius: 40px;
 }
 
 @media (max-width: 768.98px) {
