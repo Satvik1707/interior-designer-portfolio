@@ -45,26 +45,6 @@ import CCard from '@coreui/vue/src/components/card/CCard'
           />
         </div>
       </div>
-      <!-- <div class="column-1 lc">
-        <div class="profile-col">
-          <img
-            id="profile2"
-            src="../assets/s1.jpg"
-            alt="nothing"
-            width="400"
-            height="300"
-          />
-        </div>
-        <div class="profile-col">
-          <img
-            id="profile2"
-            src="../assets/s1.jpg"
-            alt="nothing"
-            width="400"
-            height="300"
-          />
-        </div>
-      </div> -->
     </div>
   </div>
 </template>

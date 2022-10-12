@@ -6,12 +6,8 @@ import { CCarousel } from '@coreui/vue'
       <div class="left-column-text">
         <p class="main-text" align="center">Nandini Gulati</p>
         <p class="main-text-desc" align="left">INTERIOR DESIGNER</p>
-        <div>
-          <CCarousel controls indicators transition="crossfade">
-            <CCarouselItem>
-              <img class="d-block w-100" src="../assets/s3.jpg" alt="slide 1" />
-            </CCarouselItem>
-          </CCarousel>
+        <div class="bg">
+          <img class="d-block w-100" src="../assets/s3.jpg" alt="slide 1" />
         </div>
       </div>
     </div>
@@ -22,6 +18,11 @@ import { CCarousel } from '@coreui/vue'
 * {
   padding: 0;
   margin: 0;
+}
+
+.bg {
+  height: 100vh;
+  /* width: 100vh; */
 }
 
 .fade-enter-active,
