@@ -13,7 +13,7 @@ import CCard from '@coreui/vue/src/components/card/CCard'
             id="profile2"
             src="../assets/s4.png"
             alt="nothing"
-            width="400"
+            width="330"
             height="300"
           />
         </div>
@@ -22,7 +22,7 @@ import CCard from '@coreui/vue/src/components/card/CCard'
             id="profile2"
             src="../assets/s2.jpg"
             alt="nothing"
-            width="400"
+            width="330"
             height="300"
           />
         </div>
@@ -31,7 +31,7 @@ import CCard from '@coreui/vue/src/components/card/CCard'
             id="profile2"
             src="../assets/s3.jpg"
             alt="nothing"
-            width="400"
+            width="330"
             height="300"
           />
         </div>
@@ -40,7 +40,7 @@ import CCard from '@coreui/vue/src/components/card/CCard'
             id="profile2"
             src="../assets/s1.jpg"
             alt="nothing"
-            width="400"
+            width="330"
             height="300"
           />
         </div>
@@ -55,21 +55,28 @@ import CCard from '@coreui/vue/src/components/card/CCard'
   padding: 0;
 }
 
-.column-1 {
+/* .column-1 {
   display: flex;
   flex-direction: column;
   flex: 1;
-}
+} */
 .lc {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+  .lc {
+    flex-direction: column;
+  }
 }
 .profile-col {
   position: relative;
   min-height: 300px;
-  min-width: 400px;
+  min-width: 330px;
   border: 3px solid #f3c7c6;
   /* padding: 5px 10px 5px 10px; */
 }

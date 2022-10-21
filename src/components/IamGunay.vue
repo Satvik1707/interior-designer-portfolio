@@ -2,6 +2,10 @@ import { CCarousel } from '@coreui/vue'
 
 <template>
   <div class="container">
+    <div class="hide">
+          <p  style="font-weight: bold;font-size: 22px;">Nandini Gulati</p>
+          <p>Interior designer</p>
+        </div>
     <div class="left-column">
       <div class="left-column-text">
         <p class="main-text" align="center">Nandini Gulati</p>
@@ -20,11 +24,46 @@ import { CCarousel } from '@coreui/vue'
   margin: 0;
 }
 
+.hide{
+  display: none;
+}
+
 .bg {
   height: 100vh;
   /* width: 100vh; */
 }
+@media (max-width: 800px){
+ .bg{
+height: auto;
+ }
+ .left-column{
+  width: auto;
+ }
+}
 
+@media (max-width: 400px){
+  .bg{
+height: auto;
+ }
+ .left-column{
+  width: auto;
+  background-color: pink;
+ }
+ .left-column img{
+  display: none;
+ }
+ .left-column p{
+  display: none;
+ }
+ .hide{
+  display: block;
+ }
+ .container{
+  display: block !important;
+  text-align: center;
+  background: pink;
+ }
+}
 .fade-enter-active,
 .fade-leave-active {
   /* transition: all 0.9s ease; */
@@ -159,10 +198,7 @@ img {
 }
 
 @media (max-width: 575.98px) {
-  .left-column {
-    padding: 10% 10% 35% 10%;
-    /* border-bottom: 1px solid black; */
-  }
+  
 
   .left-column .main-text-desc {
     color: #1c1c1c;
@@ -191,6 +227,9 @@ img {
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .main-text-desc{
+    margin-top: 50px;
+  }
 }
 
 /* // Large devices (desktops, less than 1200px) */
